@@ -21,6 +21,9 @@ body { min-width: 1200px;  font-family: 'Segoe UI';}
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%; height: 100px; 
+        position: fixed; top: 0; left: 0; z-index: 99;
+        background: #fff;
       } 
 #header h1 { position: absolute; left: 0; top: 25px;
             width: 249px; left: 30px; }
@@ -52,12 +55,13 @@ body { min-width: 1200px;  font-family: 'Segoe UI';}
 /* main */
 #slogan {  height: 700px; width: 100%;
         position: relative;
-        background: url(../imges/abstract-4124262_1920.jpg) no-repeat center / cover;
+        background: url(/imges/abstract-4124262_1920.jpg) no-repeat center / cover;
         display: flex; 
         justify-content: center;
         flex-flow: column nowrap;
         align-items: center;
         text-align: center;
+        margin-top: 100px;
         /* margin: 0 20px; */
          }
 
@@ -90,7 +94,7 @@ body { min-width: 1200px;  font-family: 'Segoe UI';}
 #solution { width: 1200px; margin: 0 auto;
             display: flex;  }
 #solution .solution { width: 100%; padding: 150px 20px 30px;
-                      background: url(../imges/bg_solution.png) no-repeat; }
+                      background: url(/imges/bg_solution.png) no-repeat; }
 /* 솔루션 이미지야 */
 #solution .hosting { background-position-y: 40px; }
 #solution .security { background-position: center 40px; }
@@ -151,7 +155,7 @@ body { min-width: 1200px;  font-family: 'Segoe UI';}
 
 /* footer */
 #footerWrap { border-top: 1px solid #ccc;
-        background: url(../imges/logo_footer.png) no-repeat 50px center; }
+        background: url(/imges/logo_footer.png) no-repeat 50px center; }
 #footer { display: flex;
         justify-content: space-between;
         padding: 20px 50px; }
@@ -160,7 +164,7 @@ body { min-width: 1200px;  font-family: 'Segoe UI';}
 #footer .sns li { width: 33px; margin-left: 17px; }
 #footer .sns li a { display: block; 
                     height: 33px;
-                    background: url(../imges/bg_sns.png) no-repeat;
+                    background: url(/imges/bg_sns.png) no-repeat;
                     text-indent: 100%; 
                     white-space: nowrap; 
                     overflow: hidden; }
