@@ -28,7 +28,7 @@ body { min-width: 1200px;  font-family: 'Segoe UI';}
 #header h1 { position: absolute; left: 0; top: 25px;
             width: 249px; left: 30px; }
 #header h1 a { display: block; height: 50px;
-            background: url(../imges/logo_header.png) no-repeat;
+            background: url(/subpage/imges/logo_header.png) no-repeat;
             text-indent: 100%; 
             white-space: nowrap; overflow: hidden; }
 
